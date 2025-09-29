@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Baby Login</title>
+  <link rel="stylesheet" href="login.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <div class="bigbox">
+    <h2>Login Now</h2>
+    <form id="formy" onsubmit="return goLogin()">
+      <div class="boxa">
+        <input type="text" id="namebox" placeholder="username">
+        <small id="line1" class="smallred">invalid name</small>
+      </div>
+      <div class="boxa">
+        <input type="password" id="wordbox" placeholder="password">
+        <small id="line2" class="smallred">invalid password</small>
+      </div>
+      <button id="bigbtn" type="submit">Login</button>
+    </form>
+  </div>
+  <script src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+  background-image: url("../loginform/img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: comic sans ms, cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.bigbox {
+  background: rgba(255, 255, 255, 0.2); 
+  backdrop-filter: blur(10px);          
+  -webkit-backdrop-filter: blur(10px);  
+opacity: 80%;
+  padding: 20px;
+  width: 23%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(68, 67, 67);
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.boxa {
+  margin-bottom: 15px;
+}
+
+.boxa input {
+  width:90%;
+  padding: 7px;
+  border: 2px solid #aaa;
+  border-radius: 5px;
+}
+
+.boxa input.redline {
+  border-color: red;
+}
+
+.smallred {
+  font-size: 11px;
+  color: red;
+  visibility: hidden;  
+  text-align: left;
+}
+
+#bigbtn {
+  background:  #ffffff;
+  color: #000;
+  border: none;
+  padding: 8px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
